@@ -1,0 +1,253 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page 
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Locationofbirth} % Set the width of the date box in each block
+
+\newcommand{\dotspacer}{\ $\cdotp$\ \ }
+
+\newcommand{\Metadata}[2]{\noindent\hangindent=1em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{3em} \small{#2}} % Define a command for each 
+
+\newcommand{\NewEntry}[2]{\noindent\hangindent=1em\hangafter=0 #1 \dotspacer {\small \textit{#2}} % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+
+%\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{3em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.5em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=1em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{cv}{\spacedallcaps{Nathan W Brei}}\vspace{1.5em} % Your name
+
+\noindent\spacedlowsmallcaps{Personal Information}\vspace{0.5em} % Personal information heading
+
+\Metadata{Email}{\href{mailto:n_brei@protonmail.ch}{n\_brei@protonmail.ch}} % Email address
+
+\Metadata{Telephone} {(+49) 1577 782 9106}
+
+\Metadata{Address}{Beetzstr 5 bei Fockner, 81679 M\"unchen DE}
+
+\Metadata{Date of birth} {10.06.1989}
+
+\Metadata{Location of birth} {Wiesbaden, DE}
+
+\Metadata{Citizenship}{USA}
+
+\vspace{1em} % Extra white space between the personal information section and goal
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Academics}\vspace{1em}
+
+
+\NewEntry{Technical University of Munich}{Munich, DE}
+\MarginText{Sept 2015 -- \newline Present}
+\Description{M.Sc. (Hons) Computational Science and Engineering \newline
+Main courses: \emph{Numerical Programming, Scientific Computing, Fundamental Algorithms, Advanced Programming, Parallel Programming, Parallel Numerics, Scientific Visualization, Patterns in Software Engineering}
+
+Elective courses: \emph{Computational Fluid Dynamics Lab, Multidisciplinary Design Optimization, Multiple View Geometry in Computer Vision} \newline 
+Honors Project: \emph{Data-Intensive Distributed Computing Workflows in Light Microscopy}
+}
+
+\NewEntry
+	{Hacker School}
+	{New York, NY, USA}
+
+\MarginText{Feb 2013 -- \newline Aug 2013}
+
+\Description{A writer's workshop for programmers. Intensive study of functional and logic programming paradigms. Worked on self-guided projects, including DSLs for generating CAD assemblies and simulations of transit networks. Introduced to the programming languages Julia, Clojure core.logic, and OCaml.
+}
+
+
+\NewEntry{Massachusetts Institute of Technology}{Cambridge, MA, USA}
+\MarginText{Sept 2007 -- \newline June 2011}
+\Description{S.B. Aerospace Engineering \dotspacer GPA: 3.6/5 \newline
+Additional coursework: \emph{Applied math, Architecture, Archaeology, Ancient history}\newline 
+Awards: 3rd Place Lufthansa Prize for Excellence in German Studies
+}
+
+
+\NewEntry
+	{International School of D\"usseldorf}
+	{D\"usseldorf, DE}
+
+\MarginText{Aug 2003 -- \newline June 2007}
+
+\Description{International Baccalaureate \dotspacer GPA: 3.65/4\newline
+	Awards: National Merit Finalist
+}
+
+
+\vspace{1em} % Extra space between major sections
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Work Experience}\vspace{1em}
+
+
+\NewEntry
+	{Software engineer, Droit Financial Technologies}
+	{New York, NY, USA}
+
+\MarginText{Sept 2013 -- \newline Sept 2015}
+
+\Description{Droit provides a system for determining regulatory compliance obligations for over-the-counter derivatives trades. This system is running in production at multiple major financial institutions. The stack was Java, Groovy, Spring, Hibernate, Drools, JBoss, MySql, AngularJS. My work involved core knowledge representation and management, rules engines, introspection, and visualization. 
+}
+
+
+\NewEntry
+	{Software engineer, Daedalus Innovation}
+	{Williamsburg, VA, USA}
+
+\MarginText{June 2011 -- \newline June 2012}
+
+\Description{Daedalus provides software engineering contracting for rapid development of startup minimum-viable products. My particular project was BookAndTalk, a site for arranging video chats between authors and book groups. Our stack was Python, Django, PostgreSQL, OpenTok, Heroku. My work involved coding core site functionality, integrating with external libraries such as OpenTok, and managing the deployment. 
+}
+
+
+\vspace{1em} % Extra space between major sections
+
+\newpage
+\noindent\spacedlowsmallcaps{Research and Internships}\vspace{1em}
+
+
+\NewEntry
+	{Honors Project, TUM Chair of Scientific Computing with Carl Zeiss Microscopy}
+	{Munich, DE}
+
+\MarginText{May 2016 -- \newline Feb 2017}
+
+\Description{Led a team of 7 people to design and implement a distributed system for image processing. The system allows an end-user to construct computation graphs using Zeiss’ existing image processing libraries and deploy them to an Apache Storm cluster. Images acquired from an attached microscope are sent to the cluster and processed in soft real time. The resulting throughput scales with the size of the cluster while the latency remains bounded.
+}
+
+\NewEntry
+	{Mechanical engineering intern, Makani Power}
+	{Alameda, CA, USA}
+
+\MarginText{Oct 2012 -- \newline Feb 2013}
+
+\Description{Makani Power (now ``Google Makani'') is developing a kite-like airborne wind turbine. I contributed to the design and implementation of the Wing 7 ground station, a truck-mounted anchor, winch, perch, and power station. My work focused on the mechanical design of structural elements and chain drives. Rapid iteration meant designing parts in CAD, performing finite element analysis, and building prototypes in the machine shop.
+}
+
+
+\NewEntry
+	{Archaeology intern, Fairfield Foundation.}
+	{Gloucester, VA, USA}
+
+\MarginText{June 2012 -- \newline Sept 2012}
+
+\Description{Archaeological fieldwork at four colonial sites in Tidewater Virginia, involving surveying, digging, cleaning, interpreting, and mapping test units and shovel tests. Lab work involving sorting, cleaning, and cataloguing artifacts. I also did archival research on a historic estate, and helped renovate a 1920's gas station.
+}
+
+\NewEntry
+	{Senior project, MIT Laboratory for Information Decision Systems}
+	{Cambridge, MA, USA}
+
+\MarginText{Fall 2010 -- \newline Spring 2011}
+
+\Description{Designed and executed a year-long experiment, with Robert Han, under the guidance of Prof Moe Win. Applied machine learning techniques to ultrawideband radio waveforms to improve localization performance. Tested ability to identify the material of barriers possibly blocking the line of sight. 
+}
+
+\NewEntry
+	{Undergraduate research, MIT Technology Laboratory for Advanced Materials and Structures}
+	{Cambridge, MA, USA}
+
+\MarginText{June 2010 -- \newline Sept 2010}
+
+\Description{Designed, machined, and tested a device to hold individual carbon fibers under tension inside a CVD furnace. Grew aligned carbon nanotube forests. Prepared carbon fibers with various coatings and tested their tensile strength. Prepared and cured graphite-epoxy composites.
+}
+
+
+\NewEntry
+	{Undergraduate research, MIT Daylighting Lab}
+	{Cambridge, MA, USA}
+
+\MarginText{June 2008 -- \newline Sept 2008}
+
+\Description{Coded a daylighting simulation plugin, as part of a team of 5 people, for SketchUp using Ruby and Java. Integrated code and equations from multiple master's theses. The plugin, `LightSolve', calculated natural lighting characteristics and interactively assists with design optimization.
+}
+
+
+%------------------------------------------------
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+
+\spacedlowsmallcaps{Skills}\vspace{1em}
+
+\Description{\MarginText{Languages}Java, C++, Python, Matlab \dotspacer Julia, Haskell, Clojure, Arduino}
+
+\Description{\MarginText{Design}SolidWorks, Rhino, Siemens NX, SketchUp \dotspacer Manual drafting, sketching, \LaTeX}
+\Description{\MarginText{Machine Shop}Waterjet, MIG welder, 3D printer, lathe, mill, autoclave, forklift}
+
+\Description{\MarginText{Hobbies}Flying sailplanes \dotspacer Drawing \dotspacer Caving \dotspacer Running \dotspacer Swing dancing}
+
+%
+%\newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
+%\settowidth{\langbox}{\textsc{Wiesbaden}} % Length equals the length of "English" - if you have a longer language in your list put it here
+
+%\Description{\MarginText{Germany}\textsc{Wiesbaden} \dotspacer June 1989 -- June 1991}
+
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+%\Description{\textsc{Stuttgart} \dotspacer Aug 1998 -- June 2001 \dotspacer Eugen-Bolz Gymnasium, Rottenburg a.N.}
+
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+%\Description{\textsc{D\"usseldorf} \dotspacer Aug 2003 -- June 2007 \dotspacer Luftsportverein Goch}
+
+%\vspace{1em} % Negative vertical space to counteract the vertical space between every \Description command
+
+
+\end{cv}
+
+\end{document}

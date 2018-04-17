@@ -1,0 +1,160 @@
+
+Nathan W Brei
+=============
+
+Personal Information
+--------------------
+
+	Email: nathan.w.brei@gmail.com
+	Telephone: (+1) 646-812-4939
+	Address: 521 W 156th St Apt 4C, New York, NY 10032, USA
+	Date of birth: 10.06.1989
+	Location of birth: Wiesbaden, HE, DE
+	Citizenship: USA
+
+Education
+---------
+
+Sept 2015 -- Mar 2018
+
+	Technical University of Munich
+	Munich, DE
+
+	M.Sc. (Hons) Computational Science and Engineering
+
+	Thesis: Generating Small Sparse Matrix Multiplication Kernels for Knights Landing
+		- Generate optimal vectorizations for sparsity patterns in the SeisSol seismic simulator
+		- Python domain-specific language for generating raw AVX-512 instructions
+		- Found optimal vectorizations
+
+	Honors Project: Data-Intensive Distributed Computing Workflows in Light Microscopy
+		- Scaling Zeiss's Zen image processing suite to high-throughput scenarios
+		- Built on top of Apache Storm for automatic cloud deployment, scaling, and fault-tolerance
+		- Zen plugin with a Python API. Overall codebase combined Java, C#, and IronPython
+		- Served as technical lead on a team of 7
+		
+	Coursework: 
+		Numerical Programming, Parallel Programming, Parallel Numerics, 
+
+	Electives: CFD lab, Multidisciplinary Design Optimization, Variational Methods in Computer Vision
+
+	MPI, OpenMP, AVX-512 assembly, C, 
+
+
+
+Feb 2013 -- Aug 2013
+
+	Recurse Center
+	New York, NY, USA
+
+	A writer's workshop for programmers. Worked on self-guided projects, including DSLs for generating CAD assemblies and simulations of transit networks. Introduced to Julia, Clojure core.logic, and OCaml.
+
+
+Sept 2007 -- June 2011
+
+	Massachusetts Institute of Technology
+	Cambridge, MA, USA
+
+	S.B. Aerospace Engineering
+	GPA: 3.6/5
+	Additional coursework: applied math, architecture, archaeology, ancient history
+	Awards: 3rd Place Lufthansa Prize for Excellence in German Studies
+
+
+Aug 2003 -- June 2007
+
+	International School of Düsseldorf
+	Düsseldorf, NRW, DE
+
+	International Baccalaureate Diploma
+	GPA: 3.65/4
+	Awards: National Merit Finalist
+
+
+Work Experience
+---------------
+
+Sept 2013 -- Present
+
+	Software engineer, Droit Financial Technologies
+	New York, NY, USA}
+
+	Droit provides a system for determining regulatory compliance obligations for over-the-counter derivatives trades. Our system is running in production at two major financial institutions. Our stack is Java, Groovy, Spring, Hibernate, Drools, JBoss, MySql, AngularJS. My work involves core knowledge representation & management, rules engines, introspection, and visualization. 
+
+	- 
+
+
+June 2011 -- June 2012
+
+	Software engineer, Daedalus Innovation
+	Williamsburg, VA, USA
+
+	Daedalus provides software engineering contracting for rapid development of startup minimum-viable products. My particular project was BookAndTalk, a site for arranging video chats between authors and book groups. Our stack was Python, Django, PostgreSQL, OpenTok, Heroku. My work involved coding basic site functionality, integrating with external libraries such as OpenTok, and managing the deployment. 
+
+
+Research and Internships
+------------------------
+
+Oct 2012 -- Feb 2013
+
+	Mechanical engineering intern, Makani Power
+	Alameda, CA, USA
+
+
+	Makani Power (now "Google Makani") is developing a kite-like airborne wind turbine. I contributed to the design and implementation of the Wing 7 ground station, a truck-mounted anchor, winch, perch, and power station. My work focused on the mechanical design of structural elements and chain drives. Rapid iteration meant designing parts in CAD, performing finite element analysis, and building prototypes in the machine shop.
+
+
+June 2012 -- Sept 2012
+
+	Archaeology intern, Fairfield Foundation
+	Gloucester, VA, USA
+
+	Archaeological fieldwork at four colonial sites in Tidewater Virginia, involving surveying, digging, cleaning, interpreting, and mapping test units and shovel tests. Lab work involving sorting, cleaning, and cataloguing artifacts. I also did archival research on a historic estate, and helped renovate a 1920's gas station.
+
+
+Fall 2010 -- Spring 2011
+
+	Senior capstone project, MIT Laboratory of Information Decision Systems
+	Cambridge, MA, USA
+
+	Designed and executed a year-long experiment, with Robert Han, under the guidance of Prof Moe Win. Applied machine learning techniques to ultrawideband radio waveforms to improve localization performance. Tested ability to identify the material of barriers possibly blocking the line of sight. 
+
+
+June 2010 -- Sept 2010
+
+	Undergraduate research, MIT Technology Laboratory for Advanced Materials and Structures
+	Cambridge, MA, USA
+
+	Designed, machined, and tested a device to hold individual carbon fibers under tension inside a CVD furnace. Grew aligned carbon nanotube forests. Prepared carbon fibers with various coatings and tested their tensile strength. Prepared and cured graphite-epoxy composites.
+
+
+June 2008 -- Sept 2008
+
+	Undergraduate research, MIT Daylighting Lab
+	Cambridge, MA, USA
+
+	Coded a daylighting simulation plugin, as part of a team of 5 people, for SketchUp using Ruby and Java. Integrated code and equations from multiple master's theses. The plugin, `LightSolve', calculated natural lighting characteristics and interactively assists with design optimization.
+
+
+Skills
+------
+
+Languages: 
+	Proficient: Java, Python, Matlab
+	Familiar: C, Julia, Haskell, Clojure, Arduino
+
+Design: 
+	CAD: SolidWorks, Rhino, Siemens NX, SketchUp
+	Manual: drafting, sketching, LaTeX
+
+Machine Shop: Waterjet, MIG welder, 3D printer, lathe, mill, autoclave, forklift
+
+Hobbies: Flying sailplanes, drawing, caving, running, swing dancing
+
+Germany:
+	June 1989 -- June 1991: Wiesbaden.
+	Aug 1998 -- June 2001: Stuttgart. Eugen-Bolz-Gymnasium, Rottenburg a.N.
+	Aug 2003 -- June 2007: Düsseldorf. Luftsportverein Goch.
+
+
+
