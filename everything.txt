@@ -28,13 +28,15 @@ Sept 2015 -- Mar 2018
 		- Found optimal vectorizations
 
 	Honors Project: Data-Intensive Distributed Computing Workflows in Light Microscopy
-		- Scaling Zeiss's Zen image processing suite to high-throughput scenarios
+		- Scaling Zeiss's `Zen' image processing suite to high-throughput scenarios
 		- Built on top of Apache Storm for automatic cloud deployment, scaling, and fault-tolerance
 		- Zen plugin with a Python API. Overall codebase combined Java, C#, and IronPython
 		- Served as technical lead on a team of 7
 		
+	TAing: Scientific Computing I, Winter semester 2017
+
 	Coursework: 
-		Numerical Programming, Parallel Programming, Parallel Numerics, 
+		Numerical Programming, Parallel Programming, Parallel Numerics, Computer Architecture, Fundamental Algorithms
 
 	Electives: CFD lab, Multidisciplinary Design Optimization, Variational Methods in Computer Vision
 
@@ -60,6 +62,7 @@ Sept 2007 -- June 2011
 	Additional coursework: applied math, architecture, archaeology, ancient history
 	Awards: 3rd Place Lufthansa Prize for Excellence in German Studies
 
+	
 
 Aug 2003 -- June 2007
 
