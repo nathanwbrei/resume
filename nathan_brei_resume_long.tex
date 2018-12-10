@@ -7,7 +7,7 @@
 \setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
 \setlength{\headsep}{0in}     % space between header and text
 \setlength{\headheight}{12pt}   % make room for header
-\setlength{\textwidth}{6in} % set width of text portion
+\setlength{\textwidth}{5.5in} % set width of text portion
 %\setlength{\resumewidth}{5in}
 \setlength{\hoffset}{0.75in}
 \setlength{\voffset}{0in}
@@ -30,9 +30,60 @@
 % Again, the address lines must be centered over entire width of resume:
 
 \begin{resume}
+
+
+\section{OBJECTIVE}%
+
+I am looking for software development roles in scientific, aerospace, or national security domains. I prefer writing lower-level parallel/numerical C++, though I also enjoy designing software systems at a higher level (e.g. in Java or Haskell) and writing code for specialized hardware (e.g. AVX-512). I am particularly interested in expanding my skills in scientific simulations, knowledge representation, computer vision, and CAD.
+
+\section{SKILLS}%
+	\begin{description}
+	    \item[Languages:] C++ (2 yrs), Java (8 yrs), Python (5 yrs), MATLAB (5 yrs), Julia, Haskell
+
+	    \item[Methodologies:] Agile/Scrum, Git, test-driven development, continuous integration, Docker
+
+	    \item[Libraries:] MPI, OpenMP, pthreads, Apache Storm, Spring, Hibernate, Angular3
+
+	   	\item[Tools:] GDB, TotalView, likwid, perf, SLURM, Jupyter, SolidWorks
+
+	\end{description}
+
+
+
+	\section{EXPERIENCE}%
+
+		{\bf Droit Financial Technologies}, Software Developer \hfill Sept 2013 - Sept 2015
+		
+		8th employee, 5th engineer. Contributed to ADEPT, a system for determining regulatory compliance obligations on derivatives trades. Knowledge engineering to model regulations which vary over time and interact in unstructured ways. Designed versioning systems to distinguish logic changes driven by regulators, driven by clients, or driven internally. Used Drools, Java, and Groovy.
+
+		Designed and built a system for visually auditing decisions. All inputs, outputs, and version information are persisted to a MySQL or Oracle database. The system traces its execution path by annotating flowcharts and decision tables.
+
+		Designed and built an AngularJS app for graphical rule editing, version management, and visualization/auditing, which replaced Drools Guvnor. The backend used Java, Spring, Hibernate.
+	
+
+		{\bf Makani Power}, Design Engineer Intern \hfill Nov 2012 - Feb 2013
+
+		Contributed to Makani's Wing 7 integrated ground station, a truck-based platform acting as a winch, battery array, and perch for a UAV. Designed and fabricated structural elements and chain drives using steel, plastic, and carbon fiber. Used Siemens NX CAD and CosmosWorks FEA.
+
+
+		{\bf Daedalus Innovation}, Backend Web Developer \hfill 2012
+
+		Daedalus provides software engineering contracting for rapid development of startup minimum-viable products. My particular project was BookAndTalk, a site for arranging video chats between authors and book groups. Our stack was Python, Django, PostgreSQL, OpenTok, Heroku. My work involved coding core site functionality, integrating with external services such as OpenTok, and managing the deployment. 
+
+
+		{\bf MIT Tech. Lab. for Advanced Materials and Structures}  \hfill Summer 2010
+
+		Grew aligned carbon nanotube forests on carbon fibers. Designed and built a device to hold individual carbon fibers under tension inside a CVD furnace.
+
+
+		{\bf MIT Daylighting Lab}, Undergrad researcher\hfill Summer 2008
+
+		Used genetic algorithms for shape optimization to improve a building's daylighting performance. Integrated existing numerical codes and wrote tools for cleaning/annotating geometry. Frontend was a SketchUp CAD plugin in Ruby; backend was C. Worked on a team of 5 people.
+
 	\section{EDUCATION}% 
-		\textbf{Technical University of Munich} \\
-		M.Sc. (Hons) Computational Science and Engineering (GPA: 3.5/4) \hfill Oct 2015 - May 2018
+		\textbf{TECHNICAL UNIVERSITY OF MUNICH} \\
+		M.Sc. (Hons) Computational Science and Engineering% (GPA: 3.5/4) %
+		\hfill Oct 2015 - May 2018
 		
 		\underline{Thesis:} Generating Small Sparse Matrix Multiplication Kernels for Knights Landing \\
 			Generated optimally vectorized multiplication routines for small sparse matrices. Obtained a speedup of 1.8 for certain kernels of the SeisSol seismic simulator when running on Xeon Phi. Created a Python domain-specific language which generates raw AVX-512 instructions, building off of LibXSMM. 
@@ -46,45 +97,20 @@
 %		\underline{Coursework:} Numerical Programming, Parallel Programming, Computer Architecture, Algorithms. CFD Lab, Design Optimization, Variational Methods in Computer Vision. MPI, OpenMP, C/C++.
 
 
-		\textbf{Massachusetts Institute of Technology} \\
-		B.Sc. Aerospace Engineering (GPA: 3.6/5)\hfill Aug 2007 - June 2011
+		\textbf{MASSACHUSETTS INSTITUTE OF TECHNOLOGY} \\
+		B.Sc. Aerospace Engineering% (GPA: 3.6/5)%
+		\hfill Aug 2007 - June 2011
 
-		\underline{Capstone project:} MIT Laboratory for Information Decision Systems \hfill 2011 \\
+		\underline{Capstone project:} MIT Laboratory for Information Decision Systems \\
 		Inferring information about the surroundings from ultrawideband radio waveforms. Multiclass classification of barriers blocking the line-of-sight, using support vector machines and MATLAB.
 
-		\underline{Undergraduate research:} MIT Tech. Lab. for Advanced Materials and Structures \hfill Summer 2010 \\
-		Grew aligned carbon nanotube forests on carbon fibers. Designed and built a device to hold individual carbon fibers under tension inside a CVD furnace.
+		\textbf{RECURSE CENTER}, Participant\hfill New York, Feb 2013 -- Aug 2013
 
-		\underline{Undergraduate research:} MIT Daylighting Lab. \hfill Summer 2008 \\
-		Used genetic algorithms for shape optimization to improve a building's daylighting performance. Integrated existing numerical codes and wrote tools for cleaning/annotating geometry. Frontend was a SketchUp CAD plugin in Ruby; backend was C. Worked on a team of 5 people. 
+		A writer's workshop for programmers. Worked on self-guided projects, including DSLs for generating CAD assemblies and simulations of transit networks. Introduced to Julia, Clojure core.logic, and OCaml.
 
 
-	\section{EXPERIENCE}
-
-		{\bf Droit Financial Technologies}, Software Developer \hfill Sept 2013 - Sept 2015
-		
-		8th employee, 5th engineer. Contributed to ADEPT, a system for determining regulatory compliance obligations on derivatives trades. Knowledge engineering to model regulations which vary over time and interact in unstructured ways. Designed versioning systems to distinguish logic changes driven by regulators, driven by clients, or driven internally. Used Drools, Java, and Groovy.
-
-		Designed and built a system for visually auditing decisions. All inputs, outputs, and version information are persisted to a MySQL or Oracle database. The system traces its execution path by annotating flowcharts and decision tables.
-
-		Designed and built an AngularJS app for graphical rule editing, version management, and visualization/auditing, which replaced Drools Guvnor. The backend used Java, Spring, Hibernate.
-	
-
-		{\bf Makani Power}, Design Engineer Intern \hfill Nov 2013 - Feb 2014
-
-		Contributed to Makani's Wing 7 integrated ground station, a truck-based platform acting as a winch, battery array, and perch for a UAV. Designed and fabricated structural elements and chain drives using steel, plastic, and carbon fiber. Used Siemens NX CAD and CosmosWorks FEA.
-
-		 {\bf Daedalus Innovation}, Backend Web Developer \hfill 2012
-
-		 Web application development using Python/Django/Postgres/Heroku.
 
 
-%	\section{SKILLS} 
-%	\begin{description} \itemsep -2pt
-%	    \item[Programming:] Fluent: Java, C, Matlab, Python. Familiar: Clojure, Scheme, Ruby, Arduino.
-%	    \item[Design:] SolidWorks, Rhino, NX, and \& SketchUp CAD. Manual drafting, sketching, \LaTeX.
-%	    \item[Machine Shop:] Waterjet, MIG welder, 3D printer, lathe, mill, etc.
-%	\end{description}
 
 \end{resume}
 \end{document}
