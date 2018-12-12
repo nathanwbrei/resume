@@ -140,7 +140,7 @@ Recurse Center
 	Participant
  	Feb 2013 -  May 2013
 
-	A intensive writer's workshop for programmers, formerly known as Hacker School. Worked on a domain-specific language for representing folded paper structures. Wrote a tool to generate a laser-cuttable CAD file from a given assembly description. Experimented with procedural generation, using L-systems to create complex geometries with self-similarity. Used Python, Django, NodeBox, and SketchUp. Started learning Julia, Clojure, and OCaml.
+	An intensive writer's workshop for programmers, formerly known as Hacker School. Worked on a domain-specific language for representing folded paper structures. Wrote a tool to generate a laser-cuttable CAD file from a given assembly description. Experimented with procedural generation, using L-systems to create complex geometries with self-similarity. Used Python, Django, NodeBox, and SketchUp. Started learning Julia, Clojure, and OCaml.
 
 
 International School of Düsseldorf
