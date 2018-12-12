@@ -1,55 +1,18 @@
 
 
 
- I enjoy solving inverse and wicked problems using computers. I have just finished a Master's program specializing in writing low-level numerical code for highly parallel architectures. I would like to apply these skills to engineering or national security domains. I am particularly interested in opportunities involving scientific simulations, knowledge representation, computer vision, and CAD.
-
-
+I enjoy solving inverse and wicked problems using computers. I have just finished a Master's program specializing in writing low-level numerical code for highly parallel architectures. I would like to apply these skills to engineering or national security domains. I am particularly interested in opportunities involving scientific simulations, knowledge representation, computer vision, and CAD.
 
 
 As a scientific software developer, I enjoy solving inverse, wicked, and otherwise computationally expensive problems. I have just finished a Master's program where I wrote low-level numerical code for highly parallel computer architectures to model geophysical problems. I would also enjoy architecting high-level, pattern-based, maintainable software systems (I have worked as an early employee at a successful fintech startup), or systems involving both hardware and software (I have a Bachelor's in aerospace engineering). I would like to apply my skills to engineering or national security domains. I am particularly interested in opportunities where I get to learn more about scientific simulations, knowledge representation, computer vision, and CAD. I'm looking for an environment where the mission comes foremost, the team works together closely, and I can proactively contribute to .
 
 
 
-
 As a scientific software developer, I especially enjoy solving inverse, wicked, and otherwise computationally expensive problems. I recently completed a Master's program where I wrote low-level numerical code for highly parallel computer architectures to model geophysical problems. I would also enjoy architecting high-level, pattern-based, maintainable software systems (I have worked as an early employee at a successful fintech startup), or systems involving both hardware and software (I have a Bachelor's in aerospace engineering). I would like to apply my skills to engineering or national security domains and am particularly interested in opportunities that allow me to expand my skillset into scientific simulations, knowledge representation, computer vision, or CAD.  I'm looking for an environment where the mission comes foremost, the team works together closely, and (ideally) I could contribute proactively on several levels, including product requirements and design.
 
 
-Objective
 
 I am looking for software development roles in scientific, aerospace, or national security domains. I would prefer to write lower-level parallel/numerical C++, though I also enjoy designing higher-level maintainable software systems (e.g. in Java or Haskell) or writing code for specialized hardware (e.g. AVX-512). I am particularly interested in opportunities to expand my skills in scientific simulations, knowledge representation, computer vision, and CAD.
 
-
-Skills
-
-Languages
-C++ (2 years)
-Java (8 years)
-Python (5 years)
-MATLAB (5 years)
-Julia (2 years)
-Haskell (1 year)
-
-Methodologies
-Agile/Scrum
-Source control management/Git
-Test-driven development
-Continuous integration/Jenkins
-Docker-compose
-Startups
-
-Tools
-GDB, TotalView
-likwid, perf
-SLURM
-Jupyter notebooks
-SolidWorks, Rhino
-
-Libraries & Frameworks
-MPI, OpenMP
-OpenCV
-Eigen, PetSc, MKL, LibXSMM
-Apache Storm
-Spring, Hibernate
-Angular3
 
 
