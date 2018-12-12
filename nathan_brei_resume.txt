@@ -47,13 +47,25 @@ Droit Financial Technologies, Software Developer, Sept 2013 - Sept 2015
 	Designed and built an AngularJS app for graphical rule editing, version management, visualization, and auditing, to replace Drools Guvnor. The backend used Java, Spring, Hibernate.
 	
 	Managed complexity:	Set up Droit's first Jenkins continuous integration server. Merged entire codebase into a monorepo. Participated in technical discussions with potential clients at major financial institutions.
+
 	
 
 Makani Power
 	Design Engineer Intern
+	Alameda, CA
 	Nov 2012 - Feb 2013
 
 	Contributed to Makani's Wing 7 integrated ground station, a truck-based platform acting as a winch, battery array, and perch for a UAV. Designed and fabricated structural elements and chain drives using steel, plastic, and carbon fiber. Used Siemens NX CAD and CosmosWorks FEA.
+
+
+
+Fairfield Foundation
+	Archaeology Intern
+	Gloucester, VA
+	June 2012 - Sept 2012
+
+	Archaeological fieldwork at four colonial sites in Tidewater Virginia, involving surveying, digging, cleaning, interpreting, and mapping test units and shovel tests. Lab work involving sorting, cleaning, and cataloguing artifacts. Archival research on the land boundaries of a historic estate. Helped renovate a 1920's gas station, which is now the Center for Archaeology, Preservation and Education.
+
 
 
 Daedalus Innovation
@@ -61,6 +73,7 @@ Daedalus Innovation
 	2012
 
 	Software engineering contracting work on the rapid development of a startup minimum-viable product, a website for arranging video chats between authors and book groups. The stack was Python, Django, Postgres, and Heroku. Coded core site functionality, integrated with external services such as OpenTok, and managed the deployment. 
+
 
 
 MIT Tech. Lab. for Advanced Materials and Structures
