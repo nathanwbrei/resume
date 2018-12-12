@@ -1,91 +1,142 @@
-% Resume of Nathan Brei
-% Uses res.cls, courtesy of RPI
-
-\documentclass[margin]{res}
-
-\setlength{\topmargin}{-0.3in}  % Start text higher on the page 
-\setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
-\setlength{\headsep}{0in}     % space between header and text
-\setlength{\headheight}{12pt}   % make room for header
-\setlength{\textwidth}{6in} % set width of text portion
-%\setlength{\resumewidth}{5in}
-\setlength{\hoffset}{0.75in}
-\setlength{\voffset}{0in}
-\setlength{\headheight}{0in}
-
-\begin{document}
-
-  \setlength{\sectionskip}{\baselineskip}
-  \setlength{\itemsep}{0pt}
-  \setlength{\parskip}{0.8\baselineskip}
 
 
-% Center the name over the entire width of resume:
- \moveleft.5\hoffset\centerline{\large\bf Nathan W. Brei}
- \moveleft.5\hoffset\centerline{n\_brei@alum.mit.edu}
- \moveleft.5\hoffset\centerline{757-920-0659}
- % Draw a horizontal line the whole width of resume:
- \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
-% address begins here
-% Again, the address lines must be centered over entire width of resume:
+Nathan W Brei
+n_brei@protonmail.ch
+(+1) 757-920-0659
 
-\begin{resume}
-	\section{EDUCATION}% 
-		\textbf{Technical University of Munich} \\
-		M.Sc. (Hons) Computational Science and Engineering (GPA: 3.5/4) \hfill Oct 2015 - May 2018
+OBJECTIVE
+---------
+
+I am looking for software development roles in scientific, aerospace, or national security domains. I prefer writing lower-level parallel/numerical C++, though I also enjoy designing software systems at a higher level (e.g. in Java or Haskell) and writing code for specialized hardware (e.g. AVX-512). I am particularly interested in expanding my skills in scientific simulations, knowledge representation, computer vision, and CAD.
+
+
+SKILLS
+------
+
+Languages: 
+	C++ (2 yrs), Java (8 yrs), Python (5 yrs), MATLAB (5 yrs), Julia, Haskell
+
+Methodologies:
+	Agile/Scrum, Git, test-driven development, continuous integration, Docker
+
+Libraries:
+	MPI, OpenMP, pthreads, Apache Storm, Spring, Hibernate, Angular
+
+Tools:
+	GDB, TotalView, likwid, perf, SLURM, Jupyter, ParaView, SolidWorks, Comsol
+
+Numerics:
+	FD Navier-Stokes, LBM, FV shallow water equations, ADER-DG, Barnes-Hut 
+
+CAD: 
+	SolidWorks, Rhino, Siemens NX, SketchUp
+
+Machine Shop: 
+	Waterjet, MIG welder, lathe, mill, autoclave, forklift
+
+
+EXPERIENCE
+----------
+
+Droit Financial Technologies, Software Developer, Sept 2013 - Sept 2015
 		
-		\underline{Thesis:} Generating Small Sparse Matrix Multiplication Kernels for Knights Landing \\
-			Generated optimally vectorized multiplication routines for small sparse matrices. Obtained a speedup of 1.8 for certain kernels of the SeisSol seismic simulator when running on Xeon Phi. Created a Python domain-specific language which generates raw AVX-512 instructions, building off of LibXSMM. 
+	8th employee, 5th engineer. Contributed to ADEPT, a system for determining regulatory compliance obligations on derivatives trades. Knowledge engineering to model regulations which vary over time and interact in unstructured ways. Designed versioning systems to distinguish logic changes driven by regulators, driven by clients, or driven internally. Used Drools, Java, and Groovy.
 
+	Designed and built a system for visually auditing decisions. All inputs, outputs, and version information are persisted to a MySQL or Oracle database. The system traces its execution path by annotating flowcharts and decision tables.
 
-		\underline{Honors Project:} Data-Intensive Distributed Computing Workflows in Light Microscopy \\
-			Scaled Zeiss Microscopy's `Zen' image processing suite for high-throughput scenarios. Leveraged Apache Storm for automatic cloud deployment, scaling, and fault-tolerance. Frontend was an IronPython API; backend mixed C\# and Java. Served as technical lead on a team of 7. 
-
-		\underline{Teaching Assistant:} Scientific Computing I, Winter Semester 2017
-
-%		\underline{Coursework:} Numerical Programming, Parallel Programming, Computer Architecture, Algorithms. CFD Lab, Design Optimization, Variational Methods in Computer Vision. MPI, OpenMP, C/C++.
-
-
-		\textbf{Massachusetts Institute of Technology} \\
-		B.Sc. Aerospace Engineering (GPA: 3.6/5)\hfill Aug 2007 - June 2011
-
-		\underline{Capstone project:} MIT Laboratory for Information Decision Systems \hfill 2011 \\
-		Inferring information about the surroundings from ultrawideband radio waveforms. Multiclass classification of barriers blocking the line-of-sight, using support vector machines and MATLAB.
-
-		\underline{Undergraduate research:} MIT Tech. Lab. for Advanced Materials and Structures \hfill Summer 2010 \\
-		Grew aligned carbon nanotube forests on carbon fibers. Designed and built a device to hold individual carbon fibers under tension inside a CVD furnace.
-
-		\underline{Undergraduate research:} MIT Daylighting Lab. \hfill Summer 2008 \\
-		Used genetic algorithms for shape optimization to improve a building's daylighting performance. Integrated existing numerical codes and wrote tools for cleaning/annotating geometry. Frontend was a SketchUp CAD plugin in Ruby; backend was C. Worked on a team of 5 people. 
-
-
-	\section{EXPERIENCE}
-
-		{\bf Droit Financial Technologies}, Software Developer \hfill Sept 2013 - Sept 2015
-		
-		8th employee, 5th engineer. Contributed to ADEPT, a system for determining regulatory compliance obligations on derivatives trades. Knowledge engineering to model regulations which vary over time and interact in unstructured ways. Designed versioning systems to distinguish logic changes driven by regulators, driven by clients, or driven internally. Used Drools, Java, and Groovy.
-
-		Designed and built a system for visually auditing decisions. All inputs, outputs, and version information are persisted to a MySQL or Oracle database. The system traces its execution path by annotating flowcharts and decision tables.
-
-		Designed and built an AngularJS app for graphical rule editing, version management, and visualization/auditing, which replaced Drools Guvnor. The backend used Java, Spring, Hibernate.
+	Designed and built an AngularJS app for graphical rule editing, version management, visualization, and auditing, to replace Drools Guvnor. The backend used Java, Spring, Hibernate.
+	
+	Managed complexity:	Set up Droit's first Jenkins continuous integration server. Merged entire codebase into a monorepo. Participated in technical discussions with potential clients at major financial institutions.
 	
 
-		{\bf Makani Power}, Design Engineer Intern \hfill Nov 2013 - Feb 2014
+Makani Power
+	Design Engineer Intern
+	Nov 2012 - Feb 2013
 
-		Contributed to Makani's Wing 7 integrated ground station, a truck-based platform acting as a winch, battery array, and perch for a UAV. Designed and fabricated structural elements and chain drives using steel, plastic, and carbon fiber. Used Siemens NX CAD and CosmosWorks FEA.
-
-		 {\bf Daedalus Innovation}, Backend Web Developer \hfill 2012
-
-		 Web application development using Python/Django/Postgres/Heroku.
+	Contributed to Makani's Wing 7 integrated ground station, a truck-based platform acting as a winch, battery array, and perch for a UAV. Designed and fabricated structural elements and chain drives using steel, plastic, and carbon fiber. Used Siemens NX CAD and CosmosWorks FEA.
 
 
-%	\section{SKILLS} 
-%	\begin{description} \itemsep -2pt
-%	    \item[Programming:] Fluent: Java, C, Matlab, Python. Familiar: Clojure, Scheme, Ruby, Arduino.
-%	    \item[Design:] SolidWorks, Rhino, NX, and \& SketchUp CAD. Manual drafting, sketching, \LaTeX.
-%	    \item[Machine Shop:] Waterjet, MIG welder, 3D printer, lathe, mill, etc.
-%	\end{description}
+Daedalus Innovation
+	Backend Web Developer
+	2012
 
-\end{resume}
-\end{document}
+	Software engineering contracting work on the rapid development of a startup minimum-viable product, a website for arranging video chats between authors and book groups. The stack was Python, Django, Postgres, and Heroku. Coded core site functionality, integrated with external services such as OpenTok, and managed the deployment. 
+
+
+MIT Tech. Lab. for Advanced Materials and Structures
+	Undergraduate researcher
+	Summer 2010
+
+	Grew aligned carbon nanotube forests on carbon fibers. Designed and built a device to hold individual carbon fibers under tension inside a CVD furnace.
+
+
+MIT Daylighting Lab
+	Undergraduate researcher
+	Summer 2008
+
+	Contributed to a tool which used genetic algorithms for shape optimization to improve a building's daylighting performance. Integrated existing numerical codes and wrote tools for cleaning/annotating geometry. Frontend was a SketchUp CAD plugin in Ruby; backend was C. Worked on a team of 5 people.
+
+
+
+EDUCATION
+---------
+
+Technical University of Munich
+	M.Sc. (Hons) Computational Science and Engineering
+	Oct 2015 - May 2018
+		
+	Thesis
+		Title: Generating Small Sparse Matrix Multiplication Kernels for Knights Landing
+
+		Supervisor: Carsten Uphoff & Michael Bader, TUM Chair of Scientific Computing
+
+		Summary: Generated optimally vectorized multiplication routines for small sparse matrices. Obtained a speedup of 1.8 for certain kernels of the SeisSol seismic simulator when running on Xeon Phi. Created a Python domain-specific language which generates raw AVX-512 instructions, building off of LibXSMM. 
+
+
+	Honors Project
+		Title: Data-Intensive Distributed Computing Workflows in Light Microscopy 
+
+		Supervisor: Daniel Butnaru, Zeiss Microscopy
+
+		Summary: Scaled Zeiss Microscopy's `Zen' image processing suite for high-throughput scenarios. Leveraged Apache Storm for automatic cloud deployment, scaling, and fault-tolerance. Frontend was an IronPython API; backend mixed C# and Java. Served as technical lead on a team of 7. 
+
+	Teaching Assistant
+		Scientific Computing I, Winter Semester 2017
+
+
+	Coursework
+		Numerical Programming, Parallel Programming, Computer Architecture, Algorithms, Parallel Numerics.
+		CFD Lab, Design Optimization, Variational Methods in Computer Vision.
+
+
+
+Massachusetts Institute of Technology
+	B.Sc. Aerospace Engineering
+	Aug 2007 - June 2011
+
+	Capstone project
+		Supervisor: Moe Win, MIT Laboratory for Information Decision Systems
+
+		Summary: Inferring information about the surroundings from ultrawideband radio waveforms. Multiclass classification of barriers blocking the line-of-sight, using support vector machines and MATLAB.
+
+
+ 	Awards: Lufthansa Prize for Excellence in German Studies, 3rd place
+
+
+Recurse Center
+	Participant
+ 	Feb 2013 -  May 2013
+
+	A intensive writer's workshop for programmers, formerly known as Hacker School. Worked on a domain-specific language for representing folded paper structures. Wrote a tool to generate a laser-cuttable CAD file from a given assembly description. Experimented with procedural generation, using L-systems to create complex geometries with self-similarity. Used Python, Django, NodeBox, and SketchUp. Started learning Julia, Clojure, and OCaml.
+
+
+International School of Düsseldorf
+	International Baccalaureate
+	Aug 2003 - June 2007
+
+	Awards: National Merit Finalist, etc
+
+
+
+
 
